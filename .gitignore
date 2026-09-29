@@ -1,0 +1,10 @@
+# Only the PUBLIC key belongs in this repo. Block everything that looks like private key material.
+*.key
+*private*
+*.p8
+*.p12
+*.pfx
+*.pem
+!.well-known/appspecific/com.tesla.3p.public-key.pem
+.env*
+.DS_Store
